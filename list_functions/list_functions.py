@@ -21,7 +21,7 @@ print(friends)
 friends.pop()
 print(friends)
 
-#how to figure if a specific elent is in a list. *remove the number sign at the brginning of the code in the next line*
+#how to figure if a specific element is in a list. *remove the number sign at the brginning of the code in the next line*
 #print(friends.index("Shiqouw"))
  # { the terminal will give you an error "ValueError: 'Shiqouw' is not in list" .This is because of the 'clear function at the end of the program }
 
@@ -40,7 +40,7 @@ print(lucky_numbers)
 friends2 = friends.copy()
 print(friends2)
 
-#clear (removes all th items in a list)
+#clear (removes all the items in a list)
 friends.clear()
 print(friends)
 lucky_numbers.clear()

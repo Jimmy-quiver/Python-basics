@@ -18,16 +18,16 @@ print("bottom")
 
 #how to make your functions more efficient
 #this is done by adding a parameter inside the function e.g, 'name'
-def say_hi_withName(name):
+def say_hi_with_name(name):
     print("Hello " + name)
 
-say_hi_withName("Mike")  
-say_hi_withName("Hermit")  
+say_hi_with_name("Mike")  
+say_hi_with_name("Hermit")  
 
 #you can add as many parameters as possible to your function
-def say_hi_withname_andAge(name, age):
+def say_hi_with_name_and_age(name, age):
     print("Hello " +name + " ,you are " + age + " years old")
 
-say_hi_withname_andAge("Mike", "70")  
+say_hi_with_name_and_age("Mike", "70")  
 #you can also pass in the age 70 as an integer without the "".This is done by adding str() e.g,
    # print("Hello " +name + " ,you are " + str(age) + " years old") 
